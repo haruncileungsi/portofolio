@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "system-ui", "sans-serif"],
+            },
+            colors: {
+              navy: "#0a192f",
+              "light-navy": "#172a45",
+              "bright-blue": "#64ffda",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header
+      class="min-h-screen flex items-center justify-center text-center bg-gradient-to-br from-purple-600 to-blue-600"
+    >
+      <div class="container mx-auto px-4">
+        <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-2">
+          Isi halaman
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-200 font-medium mb-8">
+          Vidio tugas B.Arab
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="tugas-it.html"
+            class="px-8 py-3 bg-bright-blue text-navy font-bold rounded-lg transition-all duration-300 hover:bg-transparent hover:border-2 hover:border-bright-blue hover:text-bright-blue transform hover:-translate-y-1"
+            >Ke haama sebelom nya
+          </a>
+          <a
+            href="index.html"
+            class="px-8 py-3 bg-transparent text-white font-bold rounded-lg border-2 border-white transition-all duration-300 hover:bg-white hover:text-navy transform hover:-translate-y-1"
+            >Halaman vidio
+          </a>
+        </div>
+      </div>
+    </header>
+    <section id="projects" class="py-20 bg-navy">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-4">
+          Proyek Saya
+        </h2>
+        <div class="w-20 h-1 bg-bright-blue rounded mx-auto mb-12"></div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div
+            class="group bg-light-navy rounded-xl overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-3"
+          >
+            <div class="overflow-hidden h-56">
+              <img
+                src="imges/CamScanner 20-11-2025 14.55_page-0001.jpg"
+                alt="Project 3"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Vlog</h3>
+              <p class="text-gray-400">
+                vidio ini durasi nya cuman bentar karna saya lagi malas bikin vidio.
+              </p>
+            </div>
+            <button class="mb-6">
+              <a
+                href="https://www.youtube.com/shorts/3flF54E52jg"
+                class="px-5 mx-5 rounded-lg bg-sky-600"
+                >suu</a
+              >
+            </button>
+          </div>
+          <div
+            class="group bg-light-navy rounded-xl overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-3"
+          >
+            <div class="overflow-hidden h-56">
+              <img
+                src="imges/CamScanner 20-11-2025 14.55_page-0001.jpg"
+                alt="Project 3"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Baca arab gundul</h3>
+              <p class="text-gray-400">
+                saya membaca dengan susah payah karna bukan tingkatan saya.
+              </p>
+            </div>
+            <button class="mb-6">
+              <a
+                href="https://www.youtube.com/shorts/UZyGUE3bTRM"
+                class="px-5 mx-5 rounded-lg bg-sky-600"
+                >suu</a
+              >
+            </button>
+          </div>
+          <div
+            class="group bg-light-navy rounded-xl overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-3"
+          >
+            <div class="overflow-hidden h-56">
+              <img
+                src="imges/CamScanner 20-11-2025 14.55_page-0001.jpg"
+                alt="Project 3"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Vidio tafsir</h3>
+              <p class="text-gray-400">
+                saya menafsir kan satu ayat doang kg kaya nya lain sampai satu surat.
+              </p>
+            </div>
+            <button class="mb-6">
+              <a
+                href="https://www.youtube.com/shorts/yYbuJ2aUtho"
+                class="px-5 mx-5 rounded-lg bg-sky-600"
+                >suu</a
+              >
+            </button>
+          </div>
+          <div
+            class="group bg-light-navy rounded-xl overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-3"
+          >
+            <div class="overflow-hidden h-56">
+              <img
+                src="imges/CamScanner 20-11-2025 14.55_page-0001.jpg"
+                alt="Project 3"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Hiwar</h3>
+              <p class="text-gray-400">
+                percakapan ini saya buat sendiri tanpa bantuan ai sedikit pun.
+              </p>
+            </div>
+            <button class="mb-6">
+              <a
+                href="https://www.youtube.com/shorts/u2Eg4gCs9xY"
+                class="px-5 mx-5 rounded-lg bg-sky-600"
+                >suu</a
+              >
+            </button>
+          </div>
+          <div
+            class="group bg-light-navy rounded-xl overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-3"
+          >
+            <div class="overflow-hidden h-56">
+              <img
+                src="imges/CamScanner 20-11-2025 14.55_page-0001.jpg"
+                alt="Project 3"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Tentang orang tua </h3>
+              <p class="text-gray-400">
+                Kisah ini saya buat dengan susah payah tanpa bantuan ai atau teman sedikit pun.
+              </p>
+            </div>
+            <button class="mb-6">
+              <a
+                href="https://www.youtube.com/shorts/QQGOXS28LPk"
+                class="px-5 mx-5 rounded-lg bg-sky-600"
+                >suu</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "system-ui", "sans-serif"],
+            },
+            colors: {
+              navy: "#0a192f",
+              "light-navy": "#172a45",
+              "bright-blue": "#64ffda",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header
+      class="min-h-screen flex items-center justify-center text-center bg-gradient-to-br from-purple-600 to-blue-600"
+    >
+      <div class="container mx-auto px-4">
+        <h1 class="text-4xl md:text-6xl font-extrabold text-white mb-2">
+          Isi halaman 
+        </h1>
+        <p class="text-xl md:text-2xl text-gray-200 font-medium mb-8">
+          Vidio tugas B.Arab
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="tahfidz.html"
+            class="px-8 py-3 bg-bright-blue text-navy font-bold rounded-lg transition-all duration-300 hover:bg-transparent hover:border-2 hover:border-bright-blue hover:text-bright-blue transform hover:-translate-y-1"
+            >Ke haama sebelom nya
+          </a>
+          <a
+            href="tugas-b.arab.html"
+            class="px-8 py-3 bg-transparent text-white font-bold rounded-lg border-2 border-white transition-all duration-300 hover:bg-white hover:text-navy transform hover:-translate-y-1"
+            >Halaman vidio
+          </a>
+        </div>
+      </div>
+    </header>
+    <section id="projects" class="py-20 bg-navy">
+      <div class="container mx-auto px-4">
+        <h2 class="text-3xl md:text-4xl font-bold text-white text-center mb-4">
+          Proyek Saya
+        </h2>
+        <div class="w-20 h-1 bg-bright-blue rounded mx-auto mb-12"></div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div
+            class="group bg-light-navy rounded-xl overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-3"
+          >
+            <div class="overflow-hidden h-56">
+              <img
+                src="imges/Screenshot 2025-12-16 210659.png"
+                alt="Project 3"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Tugas slesing</h3>
+              <p class="text-gray-400">
+                Tugas ini saya dibantuin sama teman saya malah bisa sebagian nya
+                temen yang kerjain.
+              </p>
+            </div>
+            <button class="mb-6">
+              <a
+                href="https://haruncileungsi.github.io/tugas-slexsing/"
+                class="px-5 mx-5 rounded-lg bg-sky-600"
+                >suu</a
+              >
+            </button>
+          </div>
+          <div
+            class="group bg-light-navy rounded-xl overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-3"
+          >
+            <div class="overflow-hidden h-56">
+              <img
+                src="imges/Screenshot 2025-12-16 210438.png"
+                alt="Project 3"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Tugas python</h3>
+              <p class="text-gray-400">
+                Tugas ini saya buat sendiri tanpa bantuan siapapun dan ai apa
+                pun.
+              </p>
+            </div>
+            <button class="mb-6">
+              <a
+                href="https://github.com/haruncileungsi/jadwal-shalat"
+                class="px-5 mx-5 rounded-lg bg-sky-600"
+                >suu</a
+              >
+            </button>
+          </div>
+          <div
+              class="group bg-light-navy rounded-xl overflow-hidden shadow-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-3"
+            >
+              <div class="overflow-hidden h-56">
+                <img
+                  src="imges/Screenshot 2025-12-16 210438.png"
+                  alt="Project 3"
+                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+              </div>
+              <div class="p-6">
+                <h3 class="text-xl font-bold text-white mb-2">Tugas mingguan</h3>
+                <p class="text-gray-400">
+                  Tugas ini saya buat sendiri tanpa bantuan siapapun dan ai apa pun.
+                </p>
+              </div>
+              <button class="mb-6">
+                <a
+                  href="https://jam.dev/c/69363f3b-822d-4496-bf67-ab4ccee461d6"
+                  class="px-5 mx-5 rounded-lg bg-sky-600"
+                  >suu</a
+                >
+              </button>
+            </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
